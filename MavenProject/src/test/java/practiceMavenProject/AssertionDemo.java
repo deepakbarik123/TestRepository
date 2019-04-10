@@ -18,6 +18,8 @@ public class AssertionDemo extends BaseClass {
 	public void assertion() {
 		openBrowser();
 		driver.get("https://gmail.com");
+		
+		System.out.println("Navigated to gmail page");
 		/*if(getElement("").isDisplayed()) {
 			System.out.println("element is displayed");
 		}

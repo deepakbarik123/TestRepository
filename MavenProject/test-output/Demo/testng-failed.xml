@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo]">
+  <parameter name="browserNameIdentification" value="ie"/>
+  <test name="test(failed)" preserve-order="true">
+    <parameter name="browserNameIdentification" value="ie"/>
+    <classes>
+      <class name="com.mavenDemo.MavenProject.fileUploadAutoit">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="fileupload"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.mavenDemo.MavenProject.fileUploadAutoit -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Demo] -->

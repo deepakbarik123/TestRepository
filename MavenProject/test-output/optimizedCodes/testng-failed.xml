@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [optimizedCodes]">
+  <test name="signin(failed)" preserve-order="true">
+    <classes>
+      <class name="com.mavenDemo.MavenProject.OptimizedCodeTest">
+        <methods>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.mavenDemo.MavenProject.OptimizedCodeTest -->
+    </classes>
+  </test> <!-- signin(failed) -->
+</suite> <!-- Failed suite [optimizedCodes] -->

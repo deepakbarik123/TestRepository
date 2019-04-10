@@ -1,0 +1,12 @@
+<suite name = "loginFuntionality">
+<test name = "signup">
+<classes>
+<class name="com.mavenDemo.MavenProject.FacebookPageTest">
+<methods>
+<include name = "m1">
+</include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

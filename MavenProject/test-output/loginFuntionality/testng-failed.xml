@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loginFuntionality]">
+  <test name="signup(failed)" preserve-order="true">
+    <classes>
+      <class name="com.mavenDemo.MavenProject.FacebookPageTest">
+        <methods>
+          <include name="m1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.mavenDemo.MavenProject.FacebookPageTest -->
+    </classes>
+  </test> <!-- signup(failed) -->
+</suite> <!-- Failed suite [loginFuntionality] -->

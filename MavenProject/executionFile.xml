@@ -1,0 +1,14 @@
+<suite name ="Demo">
+<test name="test" parallel="false" thread-count="2">
+<parameter name="browserNameIdentification" value="ie"></parameter>
+<classes>
+<class name="com.mavenDemo.MavenProject.fileUploadAutoit">
+<!-- <methods>
+<exclude name="fileupload"></exclude>
+<include name=""></include>
+<include name="fileupload"></include>
+</methods> -->
+</class>
+</classes>
+</test>
+</suite>
